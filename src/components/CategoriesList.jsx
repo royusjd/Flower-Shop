@@ -1,6 +1,7 @@
 import useFetch from "../hooks/useFech";
 import DataHandler from "../utils/DataHandler";
 import Category from "./Category";
+import "./components_style/CategoriesList.css";
 
 export default function CategoriesList() {
 	const {

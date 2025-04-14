@@ -7,7 +7,7 @@ export default function Category({ title, imgSrc }) {
 				src={imgSrc}
 				alt={title}
 			/>
-			<h3>{title}</h3>
+			<h3 className="card-title">{title}</h3>
 		</div>
 	);
 }
