@@ -1,0 +1,28 @@
+:root {
+	--green: #50806b;
+	--bggreen: #e8edde;
+	--lgreen: #5bc08a;
+	--black: #000;
+	--red: #d11f1f;
+	--textgrey: #7c8087;
+	--white: #fff;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: "Poppins";
+	font-style: normal;
+}
+.wrapper {
+	max-width: 1260px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.green-bg {
+	background-color: var(--green);
+}
+.light-bg {
+	background-color: var(--bggreen);
+}
