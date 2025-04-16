@@ -1,5 +1,6 @@
 import BestList from "./BestList";
 import Title from "./Title";
+import "./components_style/BestSection.css";
 
 export default function BestSection() {
 	return (
