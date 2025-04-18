@@ -3,7 +3,7 @@ import useFetch from "../hooks/useFech";
 
 const PlantsContext = createContext();
 
-export default function PlantsProvider({ children }) {
+export function PlantsProvider({ children }) {
 	const {
 		data: plants,
 		loading,
@@ -14,7 +14,9 @@ export default function PlantsProvider({ children }) {
 		"image"
 	);
 	const value = { plants, loading, error };
+	console.log(value);
 	return (
 		<PlantsContext.Provider value={value}>{children}</PlantsContext.Provider>
 	);
 }
+export default PlantsContext;

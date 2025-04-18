@@ -1,6 +1,6 @@
 import PuffLoader from "react-spinners/PuffLoader";
 
-export default function dataHandler({ loading, error, children }) {
+export default function DataHandler({ loading, error, children }) {
 	if (loading) {
 		return (
 			<PuffLoader

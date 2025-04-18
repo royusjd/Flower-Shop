@@ -1,5 +1,6 @@
 import Title from "./Title";
 import "./components_style/HotSection.css";
+import PlantCardsList from "./PlantCardsList";
 
 export default function HotSection() {
 	return (
@@ -9,6 +10,10 @@ export default function HotSection() {
 					text1={"Hottest"}
 					text2={"Plants"}
 					showlink={true}
+				/>
+				<PlantCardsList
+					filterType={"hot"}
+					limit={""}
 				/>
 			</div>
 		</section>
