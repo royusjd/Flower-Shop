@@ -30,6 +30,7 @@ export default function PlantCardsList({ filterType, limit }) {
 						title={plant.title}
 						price={plant.price}
 						imgSrc={plant.imgSrc}
+						discount={plant.discount}
 					/>
 				))}
 			</DataHandler>
